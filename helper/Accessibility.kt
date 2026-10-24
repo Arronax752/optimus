@@ -682,7 +682,7 @@ class OptimusAccessibility : AccessibilityService() {
                     Handler(Looper.getMainLooper()).postDelayed({
                         val resultsRoot = rootInActiveWindow ?: return@postDelayed
                         // Search for her nick directly if "Locked chats" is hidden
-                        val nicknames = listOf("Locked chats", "Anushka", "puchki", "Anu")
+                        val nicknames = listOf("Locked chats")
                         var targetNode: AccessibilityNodeInfo? = null
 
                         for (nick in nicknames) {
