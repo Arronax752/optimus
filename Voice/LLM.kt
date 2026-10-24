@@ -592,7 +592,6 @@ object LLM {
                 Name: Atul Kumar Sinha | DOB: April 1, 2008
                 Family: Father (Pranav Kumar), Mother (Amrita Kumari), Sister (Shrishti Sinha - Twin)
                 Home Address : 
-                Partner: Anushka (DOB: March 22, 2009)
                 Hobbies: Programming, Exercise, Talking to Anushka.""".trimIndent()
 
         val schedule = Memory.getSchedule(context)
